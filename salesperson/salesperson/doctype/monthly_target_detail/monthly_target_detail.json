@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-13 14:47:28.119579",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_xptx",
+  "sales_person",
+  "month",
+  "target_amount",
+  "contribution_",
+  "item_category",
+  "achieved_amount",
+  "jan_target",
+  "feb_target",
+  "mar_target",
+  "apr_target",
+  "may_target",
+  "jun_target",
+  "jul_target",
+  "aug_target",
+  "sep_target",
+  "oct_target",
+  "nov_target",
+  "dec_target",
+  "detail_ref",
+  "details",
+  "detail_json",
+  "customer",
+  "year"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "item_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Category",
+   "options": "Item Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xptx",
+   "fieldtype": "Column Break",
+   "options": "\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "target_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Last Year Target  ",
+   "precision": "2"
+  },
+  {
+   "fieldname": "contribution_",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Contribution %"
+  },
+  {
+   "fieldname": "column_break_xptx",
+   "fieldtype": "Column Break",
+   "options": "\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "target_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Last Year Target  ",
+   "precision": "2"
+  },
+  {
+   "fieldname": "contribution_",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Contribution %"
+  },
+  {
+   "fieldname": "item_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Category",
+   "options": "Item Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sales_person",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Person",
+   "options": "Sales Person"
+  },
+  {
+   "fieldname": "achieved_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Last Year Achivement",
+   "precision": "2"
+  },
+  {
+   "fieldname": "jan_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "January"
+  },
+  {
+   "fieldname": "feb_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "February"
+  },
+  {
+   "fieldname": "mar_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "March"
+  },
+  {
+   "fieldname": "apr_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "April"
+  },
+  {
+   "fieldname": "may_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "May"
+  },
+  {
+   "fieldname": "jun_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "June"
+  },
+  {
+   "fieldname": "jul_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "July"
+  },
+  {
+   "fieldname": "aug_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "August"
+  },
+  {
+   "fieldname": "sep_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "September"
+  },
+  {
+   "fieldname": "oct_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "October"
+  },
+  {
+   "fieldname": "nov_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "November"
+  },
+  {
+   "fieldname": "dec_target",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "December"
+  },
+  {
+   "fieldname": "detail_ref",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Detail Ref"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Button",
+   "label": "Details"
+  },
+  {
+   "fieldname": "detail_json",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "Detail JSON"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Fiscal Year",
+   "options": "Fiscal Year"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-13 14:54:10.793260",
+ "modified_by": "Administrator",
+ "module": "Salesperson",
+ "name": "Monthly Target Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
