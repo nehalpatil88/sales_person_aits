@@ -14,10 +14,7 @@
   "q1_target",
   "q2_target",
   "q3_target",
-  "q4_target",
-  "detail_ref",
-  "details",
-  "detail_json"
+  "q4_target"
  ],
  "fields": [
   {
@@ -72,23 +69,6 @@
    "label": "Q4 Target"
   },
   {
-   "fieldname": "detail_ref",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Detail Ref"
-  },
-  {
-   "fieldname": "details",
-   "fieldtype": "Button",
-   "label": "Details"
-  },
-  {
-   "fieldname": "detail_json",
-   "fieldtype": "Long Text",
-   "hidden": 1,
-   "label": "Detail JSON"
-  },
-  {
    "fieldname": "q1_target",
    "fieldtype": "Currency",
    "in_list_view": 1,
@@ -99,7 +79,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-03-23 11:04:36.786927",
+ "modified": "2026-03-23 11:48:27.244297",
  "modified_by": "Administrator",
  "module": "Salesperson",
  "name": "Quarterly Target Detail",

@@ -6,7 +6,6 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "year",
   "customer",
   "total_target",
   "total_achieved",
@@ -19,16 +18,6 @@
   "monthly_targets"
  ],
  "fields": [
-  {
-   "depends_on": "eval:doc.period_type=='Yearly'",
-   "fieldname": "year",
-   "fieldtype": "Link",
-   "label": "Fiscal Year",
-   "length": 20,
-   "mandatory_depends_on": "eval:doc.period_type=='Yearly'",
-   "options": "Fiscal Year",
-   "width": "10"
-  },
   {
    "fieldname": "total_target",
    "fieldtype": "Currency",
@@ -102,7 +91,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-23 10:38:47.310618",
+ "modified": "2026-03-23 11:42:46.300463",
  "modified_by": "Administrator",
  "module": "Salesperson",
  "name": "Sales Person Target",

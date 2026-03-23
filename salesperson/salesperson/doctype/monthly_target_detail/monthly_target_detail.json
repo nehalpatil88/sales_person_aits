@@ -24,11 +24,7 @@
   "sep_target",
   "oct_target",
   "nov_target",
-  "dec_target",
-  "detail_ref",
-  "details",
-  "detail_json",
-  "customer"
+  "dec_target"
  ],
  "fields": [
   {
@@ -184,37 +180,13 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "December"
-  },
-  {
-   "fieldname": "detail_ref",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Detail Ref"
-  },
-  {
-   "fieldname": "details",
-   "fieldtype": "Button",
-   "label": "Details"
-  },
-  {
-   "fieldname": "detail_json",
-   "fieldtype": "Long Text",
-   "hidden": 1,
-   "label": "Detail JSON"
-  },
-  {
-   "fieldname": "customer",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Customer",
-   "options": "Customer"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-03-23 11:35:32.611296",
+ "modified": "2026-03-23 11:50:21.801196",
  "modified_by": "Administrator",
  "module": "Salesperson",
  "name": "Monthly Target Detail",
