@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2026-03-13 14:47:28.119579",
+ "creation": "2026-03-13 14:54:27.322799",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -28,8 +28,7 @@
   "detail_ref",
   "details",
   "detail_json",
-  "customer",
-  "year"
+  "customer"
  ],
  "fields": [
   {
@@ -209,20 +208,13 @@
    "in_list_view": 1,
    "label": "Customer",
    "options": "Customer"
-  },
-  {
-   "fieldname": "year",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Fiscal Year",
-   "options": "Fiscal Year"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-03-13 14:54:10.793260",
+ "modified": "2026-03-23 11:35:32.611296",
  "modified_by": "Administrator",
  "module": "Salesperson",
  "name": "Monthly Target Detail",
